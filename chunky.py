@@ -29,4 +29,27 @@ def get_modrinth_jar(slug):
 # get the url for the latest chunky, then save it
 url = get_modrinth_jar("chunky")
 if url:
-    save(url, "Chunky.jar") 
+    save(url, "Chunky.jar")   
+
+# clearlag++
+url = get_modrinth_jar("clearlag-plus-plus")
+if url:
+    save(url, "ClearLag++.jar")
+
+# bubblevillagers
+url = get_modrinth_jar("bubblevillagers")
+if url:
+    save(url, "BubbleVillagers.jar")
+
+# spark (direct url, no api needed)
+save("https://spark.lucko.me/download/spark.jar", "Spark.jar")
+
+# essentialsx
+url = get_modrinth_jar("essentialsx")
+if url:
+    save(url, "EssentialsX.jar")
+
+# farm limiter
+url = get_modrinth_jar("farm-limiter-applexial")
+if url:
+    save(url, "FarmLimiter.jar")
