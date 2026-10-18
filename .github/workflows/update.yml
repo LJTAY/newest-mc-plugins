@@ -1,4 +1,4 @@
-name: Update Chunky
+name: Update Plugins
 
 on:
   schedule:
