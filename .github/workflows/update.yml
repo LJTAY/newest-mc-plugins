@@ -20,7 +20,7 @@ jobs:
 
       - run: pip install requests
 
-      - run: python chunky.py
+      - run: python plugins.py
 
       - name: Commit if changed
         run: |
