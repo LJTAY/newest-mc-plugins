@@ -53,3 +53,8 @@ if url:
 url = get_modrinth_jar("farm-limiter-applexial")
 if url:
     save(url, "FarmLimiter.jar")
+
+url = get_modrinth_jar("grimac")
+if url:
+    save(url, "GrimAC.jar")
+
