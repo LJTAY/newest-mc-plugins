@@ -43,6 +43,7 @@ if url:
 
 # spark (direct url, no api needed)
 save("https://spark.lucko.me/download/spark.jar", "Spark.jar")
+save("https://dev.bukkit.org/projects/worldedit/files/latest", "WorldEdit.jar")
 
 # essentialsx
 url = get_modrinth_jar("essentialsx")
@@ -57,4 +58,3 @@ if url:
 url = get_modrinth_jar("grimac")
 if url:
     save(url, "GrimAC.jar")
-
