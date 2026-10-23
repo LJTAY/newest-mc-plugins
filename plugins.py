@@ -58,3 +58,7 @@ if url:
 url = get_modrinth_jar("grimac")
 if url:
     save(url, "GrimAC.jar")
+
+url = get_modrinth_jar("hibernate-fabric")
+if url:
+    save(url, "hibernate-fabric.jar")   
