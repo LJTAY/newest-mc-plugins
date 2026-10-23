@@ -61,4 +61,4 @@ if url:
 
 url = get_modrinth_jar("hibernate-fabric")
 if url:
-    save(url, "hibernate-fabric.jar")   
+    save(url, "Hibernate-Fabric.jar")   
