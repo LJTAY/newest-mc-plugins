@@ -31,7 +31,7 @@ def get_modrinth_jar(slug):
 url = get_modrinth_jar("chunky")
 if url:
     save(url, "Chunky.jar")   
-    time.sleep(0.5
+    time.sleep(0.5)
 
 # bubblevillagers
 url = get_modrinth_jar("bubblevillagers")
