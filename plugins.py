@@ -1,5 +1,6 @@
 import requests
 import os
+import time
 
 # make the plugins folder if it doesn't exist yet
 os.makedirs("plugins", exist_ok=True)
@@ -30,16 +31,13 @@ def get_modrinth_jar(slug):
 url = get_modrinth_jar("chunky")
 if url:
     save(url, "Chunky.jar")   
-
-# clearlag++
-url = get_modrinth_jar("clearlag-plus-plus")
-if url:
-    save(url, "ClearLag++.jar")
+    time.sleep(0.5
 
 # bubblevillagers
 url = get_modrinth_jar("bubblevillagers")
 if url:
     save(url, "BubbleVillagers.jar")
+    time.sleep(0.5)
 
 # spark (direct url, no api needed)
 save("https://spark.lucko.me/download/spark.jar", "Spark.jar")
@@ -49,16 +47,20 @@ save("https://dev.bukkit.org/projects/worldedit/files/latest", "WorldEdit.jar")
 url = get_modrinth_jar("essentialsx")
 if url:
     save(url, "EssentialsX.jar")
+    time.sleep(0.5)
 
 # farm limiter
 url = get_modrinth_jar("farm-limiter-applexial")
 if url:
     save(url, "FarmLimiter.jar")
+    time.sleep(0.5)
 
 url = get_modrinth_jar("grimac")
 if url:
     save(url, "GrimAC.jar")
+    time.sleep(0.5)
 
 url = get_modrinth_jar("hibernate-fabric")
 if url:
     save(url, "Hibernate-Fabric.jar")   
+    time.sleep(0.5)
