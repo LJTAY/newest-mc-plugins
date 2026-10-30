@@ -59,3 +59,8 @@ url = get_modrinth_jar("grimac")
 if url:
     save(url, "GrimAC.jar")
     time.sleep(0.5)
+
+url = get_modrinth_jar("velocitynavigator")
+if url:
+    save(url, "VelocityNavigator.jar")
+    time.sleep(0.5)   
